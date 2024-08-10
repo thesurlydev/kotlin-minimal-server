@@ -2,6 +2,8 @@
 
 A near zero dependency Kotlin web server.
 
+[kotlin-minimal-example](https://github.com/thesurlydev/kotlin-minimal-server) is an example implementation.
+
 ## Goals
 
 * No annotations
