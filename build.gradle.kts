@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
-    kotlin("plugin.serialization") version "2.0.0"
+    kotlin("jvm") version "2.0.10"
+    kotlin("plugin.serialization") version "2.0.10"
     id("maven-publish")
 }
 
@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     api("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.1")
-    api("org.slf4j:slf4j-simple:2.0.13")
+    api("org.slf4j:slf4j-simple:2.0.16")
     api("io.github.oshai:kotlin-logging-jvm:7.0.0")
 }
 
