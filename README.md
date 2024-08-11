@@ -16,3 +16,27 @@ A near zero dependency Kotlin web server.
 ```shell
 ./gradlew clean build
 ```
+
+## Dependency
+
+### Gradle (Kotlin DSL)
+
+```kotlin
+implementation("dev.surly:kotlin-minimal-server:0.1.0")
+```
+
+### Gradle (Groovy DSL)
+
+```groovy
+implementation 'dev.surly:kotlin-minimal-server:0.1.0'
+```
+
+### Maven
+
+```xml
+<dependency>
+    <groupId>dev.surly</groupId>
+    <artifactId>kotlin-minimal-server</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
